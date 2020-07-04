@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
-func main() {
+func printName() {
 	fmt.Println("Valdy")
+}
+
+func main() {
+	printName()
 }
